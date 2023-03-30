@@ -8,5 +8,13 @@ namespace githubTestApp
 {
     internal class Person
     {
+        public string Name { get; set; }
+        public string City { get; set; }
+
+        public Person() 
+        {
+            this.Name = "Anja";
+            this.City = "Herning";
+        } 
     }
 }

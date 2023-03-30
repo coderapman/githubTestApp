@@ -13,6 +13,8 @@
             {
                 Console.WriteLine(a);
             }
+            Person person = new Person();
+            Console.WriteLine($"Mit navn er {person.Name} og jeg er fra {person.City}");
         }
     }
 }

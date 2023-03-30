@@ -13,6 +13,8 @@
             {
                 Console.WriteLine(a);
             }
+            
+            Console.WriteLine("test push");
         }
     }
 }
